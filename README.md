@@ -108,6 +108,8 @@ L8008 localhost:8008
 
 💡 This way you won’t lose your tunnel settings.
 
+![image](https://github.com/AgataGolik/images/blob/main/1.png)
+
 ## 5️⃣ CONNECT TO THE VPS
 
 Click **Open** → accept the fingerprint → log in as: `root`
