@@ -11,6 +11,15 @@
 ✔️ **root access via SSH**  
 ✔️ **PuTTY** installed on your local machine
 
+## 2️⃣ CREATE VPS on Vast.ai
+
+Go to [Vast.ai](https://vast.ai/) and create a new instance.  
+When selecting your template, switch from the default **NVIDIA CUDA** image to **Ubuntu 22.04 VM**.  
+
+Then choose a machine that meets the requirements (e.g. **RTX 3060**, 4 CPU cores, 8 GB RAM).  
+💡 You can often find good offers for around **$0.09/hour**.
+
+
 ## 2️⃣ CONNECT TO VPS VIA SSH (PuTTY)
 
 1. Open **PuTTY** (if you don’t have it yet, download it from [https://www.putty.org/](https://www.putty.org/)).  
