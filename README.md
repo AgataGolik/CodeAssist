@@ -15,9 +15,10 @@
 
 Go to [Vast.ai](https://vast.ai/) and create a new instance.  
 When selecting your template, switch from the default **NVIDIA CUDA** image to **Ubuntu 22.04 VM**.  
-
+![image](https://github.com/AgataGolik/images/blob/main/Projekt%20bez%20nazwy%20(30).png)
 Then choose a machine that meets the requirements (e.g. **RTX 3060**, 4 CPU cores, 8 GB RAM).  
 💡 You can often find good offers for around **$0.09/hour**.
+![image](https://github.com/AgataGolik/images/blob/main/Projekt%20bez%20nazwy%20(32).png)
 
 
 ## 2️⃣ CONNECT TO VPS VIA SSH (PuTTY)
