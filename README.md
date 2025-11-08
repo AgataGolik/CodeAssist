@@ -173,12 +173,18 @@ Wait until everything starts — you’ll see:
 `CodeAssist Started
 A browser should have opened to http://localhost:3000`
 
+![image](https://github.com/AgataGolik/images/blob/main/Zrzut%20ekranu%202025-11-08%20175102.jpg)
+
 ## 1️⃣1️⃣ OPEN CODEASSIST LOCALLY
 On your local computer (Windows):
 ➡️ Open your browser and go to:
 `http://localhost:3000`
-
 If everything went well, you’ll see the CodeAssist interface.
-Log in using your HuggingFace token, and you’re ready to go 🚀
+
+Sign in using the same email you always use for the Gensyn dashboard.
+
+![image](https://github.com/AgataGolik/images/blob/main/Zrzut%20ekranu%202025-11-08%20175200.jpg)
+
+
 
 
