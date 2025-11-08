@@ -117,6 +117,9 @@ Click **Open** → accept the fingerprint → log in as: `root`
 
 - If you use an SSH key, the connection will start automatically
 
+![image](https://github.com/AgataGolik/images/blob/main/Enter%20the%20passphrase%20you%20created%20earlier%20in%20Step%201%20Generate%20SSH%20Keys%20with%20PuTTYgen.png)
+
+
 ## 6️⃣ INSTALL DEPENDENCIES
 
 Once logged into your VPS terminal, run:
