@@ -200,6 +200,12 @@ If everything goes well, it should look like this:
 
 ![image](https://github.com/AgataGolik/images/blob/main/Zrzut%20ekranu%202025-11-09%20101029.jpg)
 
+Then run this command, over and over again :) :
+
+```bash
+uv run run.py
+```
+
 ## If you get bored and close PuTTY, don’t worry – nothing happens.
 When you log back into your Vast.ai VPS through PuTTY, just run the following commands:
 
