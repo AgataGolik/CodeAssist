@@ -189,8 +189,17 @@ Sign in using the same email you always use for the Gensyn dashboard.
 
 ![image](https://github.com/AgataGolik/images/blob/main/Zrzut%20ekranu%202025-11-07%20183717.jpg)
 
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+---
+## ⚠️REMEMBER! VERY IMPORTANT!
+## When you’ve solved a problem, then you’ll go back to terminal and use `CTRL + C`
+---
+## VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
 ## If you get bored and close PuTTY, don’t worry – nothing happens.
 When you log back into your Vast.ai VPS through PuTTY, just run the following commands:
+
+
 
 ```bash
 cd codeassist
@@ -203,3 +212,5 @@ uv run run.py
 
 And when you’re ready to jump back in, the fun starts again – you can go back to “solving problems” and hit Submit Solution.
 
+#⚠️REMEBER ! 
+## When you’ve solved a problem, then you’ll go back to terminal and use control C
