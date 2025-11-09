@@ -49,7 +49,7 @@ You should always enter it before using the key to connect).
    `ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQ...`
 ---
 
-## 2️⃣ CREATE VPS on Vast.ai
+## 2️⃣ CREATE VPS on Vast.ai, ServaRica or other
 
 Go to [Vast.ai](https://vast.ai/) and create a new instance.  
 When selecting your template, switch from the default **NVIDIA CUDA** image to **Ubuntu 22.04 VM**.  
@@ -57,6 +57,9 @@ When selecting your template, switch from the default **NVIDIA CUDA** image to *
 Then choose a machine that meets the requirements (e.g. **RTX 3060**, 4 CPU cores, 8 GB RAM).  
 💡 You can often find good offers for around **$0.09/hour**.
 ![image](https://github.com/AgataGolik/images/blob/main/Projekt%20bez%20nazwy%20(32).png)
+
+
+If you prefer to use a VPS like Servarica or another one, you can set up your SSH key (the same one you copied to Vast.ai) before purchasing the service. However, on Servarica you can usually connect using a password as well. The rest of the settings you need to configure before connecting to the VPS server are shown below:
 
 
 ## 2️⃣ CONNECT TO VPS VIA SSH (PuTTY)
