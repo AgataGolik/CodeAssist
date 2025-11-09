@@ -1,11 +1,11 @@
-# 🧭 FULL GUIDE: CodeAssist on VPS (PuTTY + Vast.ai)
+# 🧭 FULL GUIDE: CodeAssist on VPS (PuTTY + VPS: ServaRica,Vast.ai or others )
 
 ## 1️⃣ REQUIREMENTS
 
-✔️ **VPS (e.g. [Vast.ai](https://vast.ai/))** with:
+✔️ **VPS (e.g. [Vast.ai](https://vast.ai/) , [Servarica](https://clients.servarica.com/store/kvm-vps-plans))** with:
 - at least **4 CPU cores**
 - **8 GB RAM**
-- **GPU** (e.g. RTX 3060)
+- **GPU or CPU ** (e.g. RTX 3060 , ServaRica: KVM Slim Slice 4, 6, 8 or others)
 
 ✔️ **Ubuntu 22.04** as the operating system  
 ✔️ **root access via SSH**  
@@ -192,9 +192,13 @@ Sign in using the same email you always use for the Gensyn dashboard.
 VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
 ---
 ## ⚠️REMEMBER! VERY IMPORTANT!
-## When you’ve solved a problem, then you’ll go back to terminal and use `CTRL + C`
+## When you’ve solved a problem (the safest of the three), then you’ll go back to terminal and use `CTRL + C`
 ---
 ## VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+If everything goes well, it should look like this:
+
+![image](https://github.com/AgataGolik/images/blob/main/Zrzut%20ekranu%202025-11-09%20101029.jpg)
 
 ## If you get bored and close PuTTY, don’t worry – nothing happens.
 When you log back into your Vast.ai VPS through PuTTY, just run the following commands:
@@ -212,5 +216,3 @@ uv run run.py
 
 And when you’re ready to jump back in, the fun starts again – you can go back to “solving problems” and hit Submit Solution.
 
-#⚠️REMEBER ! 
-## When you’ve solved a problem, then you’ll go back to terminal and use control C
