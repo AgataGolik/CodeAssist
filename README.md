@@ -203,8 +203,13 @@ If everything goes well, it should look like this:
 
 ![image](https://github.com/AgataGolik/images/blob/main/Zrzut%20ekranu%202025-11-09%20101029.jpg)
 
+## Head over to the [GENSYN EXPLORER](https://gensyn-testnet.explorer.alchemy.com/) and check if your transactions show up there under the name `CodeAssist`.
 
 ![image](https://github.com/AgataGolik/images/blob/main/Zrzut%20ekranu%202025-11-10%20110824.jpg)
+
+## Go to the [Gensyn dashboard](https://dashboard.gensyn.ai/?application=CodeAssist) and check your ranking.
+
+![image](https://github.com/AgataGolik/images/blob/main/Zrzut%20ekranu%202025-11-10%20181734.jpg)
 
 Then run this command, over and over again :) :
 
