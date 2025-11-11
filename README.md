@@ -217,7 +217,7 @@ Then run this command, over and over again :) :
 uv run run.py
 ```
 
-## If you get bored and close PuTTY, don’t worry – nothing happens.
+## 🕒 If you get bored and close PuTTY, don’t worry – nothing happens.
 When you log back into your Vast.ai VPS through PuTTY, just run the following commands:
 
 
@@ -233,3 +233,18 @@ uv run run.py
 
 And when you’re ready to jump back in, the fun starts again – you can go back to “solving problems” and hit Submit Solution.
 
+# 💡 Tip: Sometimes you can update it using the command `git pull`:
+
+```bash
+cd codeassist
+```
+```bash
+git pull
+```
+
+'git pull' is basically an update of your local project code from GitHub – like updating a program you’ve already installed.
+
+In practice, it:
+- fetches the latest changes from the remote repository,
+- compares them with your local version,
+- and if there are no conflicts, it updates your local files with the newer ones.
