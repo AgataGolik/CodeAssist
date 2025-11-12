@@ -209,7 +209,7 @@ If everything goes well, it should look like this:
 
 ## Go to the [Gensyn dashboard](https://dashboard.gensyn.ai/?application=CodeAssist) and check your ranking.
 
-![image](https://github.com/AgataGolik/images/blob/main/Zrzut%20ekranu%202025-11-10%20181734.jpg)
+![image](https://github.com/AgataGolik/images/blob/main/Projekt%20bez%20nazwy%20(37).png)
 
 Then run this command, over and over again :) :
 
