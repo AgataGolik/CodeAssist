@@ -248,3 +248,23 @@ In practice, it:
 - fetches the latest changes from the remote repository,
 - compares them with your local version,
 - and if there are no conflicts, it updates your local files with the newer ones.
+
+# ⚠️ **Warning:** Sometimes an error like the one below may occur:
+
+![image](https://github.com/AgataGolik/images/blob/main/Zrzut%20ekranu%202025-11-12%20084957.jpg)
+<p align="center" style="color:white; background-color:#ff5555; padding:10px; border-radius:8px;">
+In that case, follow the steps below:
+</p>
+
+```bash
+cd codeassist
+```
+```bash
+sudo rm -rf codeassist
+```
+```bash
+git clone https://github.com/gensyn-ai/codeassist.git
+```
+```bash
+uv run run.py
+```
