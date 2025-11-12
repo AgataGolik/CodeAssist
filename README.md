@@ -268,3 +268,11 @@ git clone https://github.com/gensyn-ai/codeassist.git
 ```bash
 uv run run.py
 ```
+
+# 💻 If you want to delete the previous HuggingFace's token from codeassist then:
+```bash
+cd codeassist
+```
+```bash
+rm .env && uv run run.py
+```
