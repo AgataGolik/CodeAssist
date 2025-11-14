@@ -257,14 +257,20 @@ In that case, follow the steps below:
 </p>
 
 ```bash
-cd codeassist
+mv /root/codeassist/persistent-data /root/persistent-backup
 ```
 ```bash
 sudo rm -rf codeassist
 ```
 ```bash
+cd ~
 git clone https://github.com/gensyn-ai/codeassist.git
+cd codeassist
 ```
+```bash
+mv /root/persistent-backup /root/codeassist/persistent-data
+```
+
 ```bash
 uv run run.py
 ```
