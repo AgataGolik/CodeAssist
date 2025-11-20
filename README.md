@@ -257,18 +257,39 @@ In that case, follow the steps below:
 </p>
 
 ```bash
-mv /root/codeassist/persistent-data /root/persistent-backup
+cd ~/codeassist
 ```
+
 ```bash
-sudo rm -rf codeassist
+rm -rf persistent-data/state-service
+mkdir -p persistent-data/state-service
+chmod -R 777 persistent-data
 ```
+It removes only one small directory responsible for the state-service component, meaning:
+
+- cache
+- temporary files
+- sessions
+- some local metadata
+
+It has nothing to do with training files or models.
+
+
+```bash
+uv run run.py
+```
+
+Or, if every other method fails... you can completely remove the codeassist file and git-clone it again from scratch.
+
+
+```bash
+rm -rf ~/codeassist
+```
+
 ```bash
 cd ~
 git clone https://github.com/gensyn-ai/codeassist.git
 cd codeassist
-```
-```bash
-mv /root/persistent-backup /root/codeassist/persistent-data
 ```
 
 ```bash
