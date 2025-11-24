@@ -103,7 +103,7 @@ L8008 localhost:8008
 
 ![image](https://github.com/AgataGolik/images/blob/main/Zrzut%20ekranu%202025-11-08%20170527.jpg)
 
-![image](https://github.com/AgataGolik/images/blob/main/Zrzut%20ekranu%202025-11-24%20224851.jpg)
+![image](https://github.com/AgataGolik/images/blob/main/Projekt%20bez%20nazwy%20(54).png)
 
 ## 4️⃣ SAVE YOUR SESSION
 
