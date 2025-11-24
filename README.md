@@ -103,6 +103,8 @@ L8008 localhost:8008
 
 ![image](https://github.com/AgataGolik/images/blob/main/Zrzut%20ekranu%202025-11-08%20170527.jpg)
 
+![image](https://github.com/AgataGolik/images/blob/main/Zrzut%20ekranu%202025-11-24%20224851.jpg)
+
 ## 4️⃣ SAVE YOUR SESSION
 
 1. Click **Session** on the left  
