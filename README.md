@@ -135,6 +135,25 @@ apt install screen curl iptables build-essential git wget lz4 jq make gcc nano a
 ```
 
 ## 7️⃣ INSTALL DOCKER
+
+First, check if you don't already have it:
+
+```bash
+docker --version
+```
+
+And if you have also check this:
+
+```bash
+docker ps -a
+```
+
+And what you should see there is this:
+
+![image](https://github.com/AgataGolik/images/blob/main/Zrzut%20ekranu%202025-11-25%20090803.jpg)
+
+But if Docker isn’t installed, install it with this command:
+
 ```bash
 curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
@@ -305,3 +324,27 @@ cd codeassist
 ```bash
 rm .env && uv run run.py
 ```
+
+
+# ⚠️  DON'T GO ANYWHERE ! THE MOST IMPORTANT TIPS ARE COMING 
+
+## 1. First of all, always keep an eye on the project’s documentation – that’s the most important thing. Here:  [CodeAssist](https://docs.gensyn.ai/testnet/codeassist)
+## 2. Important for the learning process is here:
+
+### Early Behavior
+Early on, the model may feel *too quiet* or *too confident*.  
+After 1–2 training runs, its performance can even regress slightly as it calibrates to your coding habits.
+
+Clear improvements usually appear after **4–5 episodes** of training.
+
+---
+
+## Guidelines Overview
+
+| **Do** | **Don't** |
+|--------|-----------|
+| - Treat CodeAssist as a **collaborator**, not an agent or autocomplete tool.<br>- Keep coding normally and let it naturally interject code.<br>- Reward *“good enough”* behavior by keeping useful code for a moment before editing or removing it.<br>- Stay relaxed – this is **experimental research**, not an interview.<br>- Record multiple varied problems to diversify its learning signals. | - Expect it to solve problems **end-to-end**.<br>- Delete every generation immediately, even if it's wrong – this encourages passivity.<br>- Sit back and wait for it to code everything for you.<br>- Panic when it begins typing unexpectedly or changing indentation. Give it a moment to sort itself out and guide it toward the output you want. |
+
+## 3. And one last thing, but still important: if you care about your spot on the leaderboard, you have to do it like this. Just let the CodeAssist assistant do its thing, it's best when it's as active as possible. Just keep it active... the more you let it - or push it - to stay busy, the better it is for your ranking.
+
+
