@@ -347,4 +347,9 @@ Clear improvements usually appear after **4–5 episodes** of training.
 
 ## 3. And one last thing, but still important: if you care about your spot on the leaderboard, you have to do it like this. Just let the CodeAssist assistant do its thing, it's best when it's as active as possible. Just keep it active... the more you let it - or push it - to stay busy, the better it is for your ranking.
 
+## 4. If your training takes too long 🤫
+
+```bash
+rm -rf persistent-data/state-service/episodes/*
+```
 
