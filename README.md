@@ -142,16 +142,6 @@ First, check if you don't already have it:
 docker --version
 ```
 
-And if you have also check this:
-
-```bash
-docker ps -a
-```
-
-And what you should see there is this:
-
-![image](https://github.com/AgataGolik/images/blob/main/Zrzut%20ekranu%202025-11-25%20090803.jpg)
-
 But if Docker isn’t installed, install it with this command:
 
 ```bash
